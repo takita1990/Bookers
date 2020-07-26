@@ -1,0 +1,7 @@
+<p id="notice"><font color="green"><%=  notice %></font></p>
+
+<p class= "title"><strong>Title:</strong><%= @book.title %></p>
+<P></P>
+<p class= "body"><strong>Body:</strong><%= @book.body%></p>
+<p></p>
+<p class= "edit"><%=link_to "Edit", edit_home_path(@book) %> | <%=link_to "Back",homes_index_path(@book) %></p>
